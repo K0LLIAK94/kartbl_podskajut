@@ -1,0 +1,53 @@
+@import url(header.css);
+@import url(main/content.css);
+@import url(main/img.css);
+@import url(main/card.css);
+@import url(footer.css);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --bg-color:#F5F5F5;
+  --text-color:#312A4E;
+  --accent-color:#FFAB6B;
+  --main-font:Raleway;
+  --accent-font:STIX Two Text;
+}
+.theme_dark {
+  --bg-color:#171717;
+  --text-color: #B3B3B3;
+  --accent-color:transparent;
+}
+.page {
+  min-inline-size: 360px;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--main-font);
+}
+.heading {
+  text-align: center;
+  font-family: var(--accent-font);
+}
+.content__title {
+ font-size: 30px;
+ margin-top: 7%;
+ margin-bottom: 2,5%; 
+}
+
+.content-section {
+  padding: 0 5vi 0 5vi;
+}
+p,
+h1,
+h2,
+h3,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+}
